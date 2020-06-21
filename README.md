@@ -1,4 +1,4 @@
-# DSI-Azriel
+# SIG
 Sistema Informático
 ### Correr los siguientes comandos despues de clonar el repositorio:
 * `composer update --no-scripts`

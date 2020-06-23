@@ -21,8 +21,8 @@ class CreateRolesTable extends Migration
             $table->boolean('condicion_rol')->default(1);
         });
 
-        DB::table('roles')->insert(array('id'=>'1','nombre_rol'=>'Parroco','descripcion'=>'Sacerdote encargado de la Parroquia San Luis Gonzaga'));
-        DB::table('roles')->insert(array('id'=>'2','nombre_rol'=>'Secretaria','descripcion'=>'Secretaria de la Parroquia San Luis Gonzaga'));
+        DB::table('roles')->insert(array('id'=>'1','nombre_rol'=>'DOCTOR','descripcion'=>'DOCTOR ENCARGADO DE LA CLÍNICA'));
+        DB::table('roles')->insert(array('id'=>'2','nombre_rol'=>'SECRETARIA','descripcion'=>'SECRETARIA DE LA CLINICA'));
 
     }
 

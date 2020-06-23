@@ -29,8 +29,8 @@ class CreateUsersTable extends Migration
            // $table->timestamps();
         });
 
-        DB::table('users')->insert(array('id'=>'1','usuario'=>'DA0201','password'=>bcrypt('DD171090*'),'idrol'=>'2'));
-        DB::table('users')->insert(array('id'=>'2','usuario'=>'GR0101', 'password' => bcrypt('PG060972*'),'idrol'=>'1'));
+        DB::table('users')->insert(array('id'=>'1','usuario'=>'ELMER.MONTES','password'=>bcrypt('123456789'),'idrol'=>'1'));
+        DB::table('users')->insert(array('id'=>'2','usuario'=>'DORIS.HERNANDEZ', 'password' => bcrypt('987654321'),'idrol'=>'2'));
     }
 
     /**

@@ -24,11 +24,13 @@ class CreatePersonasTable extends Migration
             $table->Integer('id_madre')->nullable();
             $table->Integer('tipo_persona')->nullable();
             $table->integer('estado')->nullable();
+            $table->integer('idzonaa')->nullable();
+            $table->integer('idiglesia')->nullable();
             $table->timestamps();
         });
 
-        DB::table('personas')->insert(array('id'=>'1','nombre_persona'=>'DELFINA EUGENIA','apellido_persona'=>'DE AMAS'));
-        DB::table('personas')->insert(array('id'=>'2','nombre_persona'=>'PÍO AGUSTIN','apellido_persona'=>'GONZÁLES RIVERA','estado'=>'1','tipo_persona'=>'1'));
+        DB::table('personas')->insert(array('id'=>'1','nombre_persona'=>'ELMER AUGUSTO','apellido_persona'=>'MONTES','estado'=>'1','tipo_persona'=>'1'));
+        DB::table('personas')->insert(array('id'=>'2','nombre_persona'=>'DORIS ELIZABETH','apellido_persona'=>'HERNÁNDEZ MENA'));
     }
 
     /**

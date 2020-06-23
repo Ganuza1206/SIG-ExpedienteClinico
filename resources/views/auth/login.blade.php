@@ -31,8 +31,7 @@
           <div class="card text-white bg-primary py-5 d-md-down-none" style="width:44%">
             <div class="card-body text-center">
               <div>
-                <h2>AZRIEL</h2>
-                <h2>Sistema Informatico de la Parroquia San Luis Gonzaga</h2>
+                <h2>Sistema de Información Gerencial para el Apoyo de los Procesos Internos en la Clínica Médica</h2>
               </div>
             </div>
           </div>

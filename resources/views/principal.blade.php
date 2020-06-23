@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <meta name="keyword" content="Azriel Laravel Vue Js, Sistema parroquial Laravel Vue Js">
     <link rel="shortcut icon" href="img/logo-msc.png">
-    <title>Azriel-Parroquia San Luis Mariona</title>
+    <title>Sistema de Información Gerencial para el Apoyo de los Procesos Internos en la Clínica Médica</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Icons -->
     <link href="css/plantilla.css" rel="stylesheet">

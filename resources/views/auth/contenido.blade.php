@@ -9,7 +9,7 @@
   <meta name="author" content="Incanatoit.com">
   <meta name="keyword" content="Azriel Laravel Vue Js, Sistema compras Laravel Vue Js">
 
-  <title>Azriel-Parroquia San Luis Mariona</title>
+  <title>Clínica Integral</title>
 
   <link href="css/plantilla.css" rel="stylesheet">
 

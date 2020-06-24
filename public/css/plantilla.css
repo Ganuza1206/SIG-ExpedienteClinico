@@ -7730,7 +7730,7 @@ base-chart.chart {
   height: 55px;
   padding: 0;
   margin: 0;
-  background-color: #fff;
+  background-color: #bee6f2;
   border-bottom: 1px solid #c2cfd6; }
   .app-header.navbar .navbar-brand {
     display: inline-block;
@@ -7830,7 +7830,7 @@ base-chart.chart {
 @media (min-width: 992px) {
   .brand-minimized .app-header.navbar .navbar-brand {
     width: 50px;
-    background-color: #fff;
+    background-color:#fff;
     background-image: url("../img/logo-symbol.png");
     background-size: 24px;
     border-bottom: 1px solid #c2cfd6; } }

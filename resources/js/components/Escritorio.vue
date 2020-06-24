@@ -6,12 +6,12 @@
                 <!-- Ejemplo de tabla Listado -->
                 <div class="card">
                     <div id="cabezara">
-                        <label id="titulo-escri">SISTEMA INFORMÁTICO DE LA PARROQUIA SAN LUIS GONZAGA (MSC)</label>
+                        <label id="titulo-escri">SISTEMA DE INFORMACIÓN GERENCIAL PARA EL APOYO DE LOS PROCESOS INTERNOS EN LA CLÍNICA MÉDICA</label>
                     </div>
                     <div class="card-body">
                     <div class="input-group margen">
                             <div id="ima"> 
-                                <img id="imagen" src="img/SanLuisMa.jpg">
+                                <img id="imagen" src="img/clinicadibujo.jpg">
                             </div>
                     </div>
                  <br>
@@ -19,16 +19,16 @@
                         <table id="table">
                             <thead>
                                 <tr>
-                                    <th id="textoAlin">OBJETIVO ARQUIDIOCESANO </th>
-                                    <th id="textoAlin">OBJETIVO GENERAL PARROQUIAL</th>
-                                    <th id="textoAlin">OBJETIVO ESPECÍFICO PARROQUIAL</th>
+                                    <th id="textoAlin">MISIÓN </th>
+                                    <th id="textoAlin">VISIÓN</th>
+                                    <th id="textoAlin">VALORES</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>   
-                                    <td id="textoAlinJ">Hacer de la Iglesia Arquidiocesana una iglesia misionera en el espíritu de Aparecida, para que con el poder de Jesucristo sea fermento del reino en la transformación y salvación de la sociedad</td>
-                                    <td id="textoAlinJ">Dentro del Plan Arquidiocesano, promover un espíritu de comunión y solidaridad que articule las fuerzas vivas de la Parroquia en torno a la Misión Evangelizadora para contribuir a la formación de personas y estructuras desde una fe más comprometida.</td>
-                                    <td id="textoAlinJ">Fortalecer el encuentro con Jesús en todas las dimensiones de la vida, para que nos identifiquemos más con Él y fortalecer así la vida comunitaria, la misión, el compromiso con los pobres y la creación.</td>
+                                    <td id="textoAlinJ">Ofrecer servicios de salud de buena calidad a un precio accesible a la población salvadoreña.</td>
+                                    <td id="textoAlinJ">Crear un sistema de salud que ofrezca los mejores servicios profesionales enfocados en la excelencia y calidez a la asistencia a los pacientes y sus familias</td>
+                                    <td id="textoAlinJ">Respeto, Responsabilidad, Tolerancia, Equidad, Ética, Compromiso, Eficiencia</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -61,8 +61,8 @@
         font-weight:bold;
     }
     #imagen{
-        width: 800px; 
-        height: 600px;
+        width: 400px; 
+        height: 300px;
         }
     #titulo-escri {
       font-size:  xx-large;

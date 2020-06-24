@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Azriel Laravel Vue Js- ">
-  <meta name="author" content="Incanatoit.com">
-  <meta name="keyword" content="Azriel Laravel Vue Js, Sistema compras Laravel Vue Js">
+  <meta name="description" content="Clinica Medica Integral ">
+  <meta name="author" content="">
+  <meta name="keyword" content="Clinica Medica Integral Laravel Vue Js">
 
-  <title>Clínica Integral</title>
+  <title>Clínica Médica Integral</title>
 
   <link href="css/plantilla.css" rel="stylesheet">
 

@@ -5,6 +5,18 @@
                         <a class="nav-link active" href="#"><i class="icon-speedometer"></i> Escritorio</a>
                     </li>
                     <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-book-open"></i>Informes Semi-Resumidos</a>
+                        <ul class="nav-dropdown-items">
+                            <li @click="menu=12" class="nav-item">
+                                <a class="nav-link" href="#"><i class="icon-notebook"></i>Reportes de medicamentos</a>
+                            </li>
+                            <li @click="menu=13" class="nav-item">
+                                <a class="nav-link" href="#"><i class="icon-notebook"></i>Reportes de citas</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item nav-dropdown">
                         <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-wallet"></i> Caja chica</a>
                         <ul class="nav-dropdown-items">
                             <li @click="menu=16" class="nav-item">
@@ -121,7 +133,7 @@
                             </li>
                         </ul>
                     </li>
-                </ul>
+                </ul>-->
             </nav>
             <button class="sidebar-minimizer brand-minimizer" type="button"></button>
         </div>

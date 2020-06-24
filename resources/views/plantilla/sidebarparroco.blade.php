@@ -15,17 +15,17 @@
                         </ul>
                     </li>
                     <li class="nav-item nav-dropdown">
-                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-wallet"></i> Caja chica</a>
+                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-book-open"></i>Informes Resumidos</a>
                         <ul class="nav-dropdown-items">
                             <li @click="menu=7" class="nav-item">
-                                <a class="nav-link" href="#"><i class="icon-wallet"></i>Historial de registros</a>
+                                <a class="nav-link" href="#"><i class="icon-notebook"></i>Reportes de medicamentos</a>
                             </li>
                             <li @click="menu=8" class="nav-item">
-                                <a class="nav-link" href="#"><i class="icon-notebook"></i>Resumen Economico</a>
+                                <a class="nav-link" href="#"><i class="icon-notebook"></i>Reportes de citas</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item nav-dropdown">
+                  <!--  <li class="nav-item nav-dropdown">
                         <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-bag"></i>Sacramentos</a>
                         <ul class="nav-dropdown-items">
                         <li class="nav-item nav-dropdown">
@@ -60,20 +60,20 @@
         
                     <li @click="menu=2" class="nav-item">
                                 <a class="nav-link" href="#"><i class="icon-bag"></i>Calendario de Eventos</a>
-                    </li>
+                    </li>-->
                     <li class="nav-item nav-dropdown">
-                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-pie-chart"></i> Control Sectorial</a>
+                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-book-open"></i>Informes Semi-Resumidos</a>
                         <ul class="nav-dropdown-items">
                             <li @click="menu=12" class="nav-item">
-                                <a class="nav-link" href="#"><i class="icon-chart"></i>Comunidad Parroquial</a>
+                                <a class="nav-link" href="#"><i class="icon-notebook"></i>Reportes de medicamentos</a>
                             </li>
                             <li @click="menu=13" class="nav-item">
-                                <a class="nav-link" href="#"><i class="icon-chart"></i>Inventarios de Iglesias</a>
+                                <a class="nav-link" href="#"><i class="icon-notebook"></i>Reportes de citas</a>
                             </li>
                             
                         </ul>
                     </li>
-                    <li class="nav-item nav-dropdown">
+                    <!--<li class="nav-item nav-dropdown">
                         <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-pie-chart"></i>Donaciones</a>
                         <ul class="nav-dropdown-items">
                             <li @click="menu=34" class="nav-item">
@@ -82,7 +82,7 @@
                         </ul>
                     </li>
 
-                </ul>
+                </ul>-->
             </nav>
             <button class="sidebar-minimizer brand-minimizer" type="button"></button>
         </div>

@@ -8,7 +8,7 @@
     <meta name="description" content="Azriel Laravel Vue Js- ">
     <meta name="author" content="">
     <meta name="keyword" content="Azriel Laravel Vue Js, Sistema parroquial Laravel Vue Js">
-    <link rel="shortcut icon" href="img/logo-msc.png">
+    <link rel="shortcut icon" href="img/LogoClinica.png">
     <title>Sistema de Información Gerencial para el Apoyo de los Procesos Internos en la Clínica Médica</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Icons -->
@@ -23,17 +23,16 @@
           <span class="navbar-toggler-icon"></span>
           <a>Menú</a>
         </button>
-        <a class="div-imagen-banner">
+        <!--<a class="div-imagen-banner">
         <img src="img/logo-msc.png" class="img-logos">
-        </a>
+        </a>-->
         <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button">
           <span class="navbar-toggler-icon"></span>
           <a>Menú</a>
         </button>
         
             <div class="div-textos-banner">
-            <div class="div-texto1-banner"><label class="font-banner1">PARROQUIA DE SAN LUIS MARIONA</label></div>
-            <div class="div-texto1-banner">MISIONEROS DEL SAGRADO CORAZÓN</div>
+            <div class="div-texto1-banner"><label class="font-banner1"><h3>Clínica Médica Integral</h3></label></div>
             </div>
             <ul class="nav navbar-nav ml-auto">
             

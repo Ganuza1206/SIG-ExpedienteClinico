@@ -23,23 +23,22 @@
           <span class="navbar-toggler-icon"></span>
           <a>Menú</a>
         </button>
-        <!--<a class="div-imagen-banner">
-        <img src="img/logo-msc.png" class="img-logos">
-        </a>-->
+        <a class="div-imagen-banner">
+        <img src="img/LogoClinica.png" class="img-logos">
+        </a>
         <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button">
           <span class="navbar-toggler-icon"></span>
           <a>Menú</a>
         </button>
-        
             <div class="div-textos-banner">
-            <div class="div-texto1-banner"><label class="font-banner1"><h3>Clínica Médica Integral</h3></label></div>
+            <div class="div-texto1-banner"><label class="font-banner1">Clínica Médica Integral</label></div>
+            <div class="div-texto1-banner">Bienvenido {{Auth::user()->usuario}}</div>
             </div>
             <ul class="nav navbar-nav ml-auto">
-            
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                  <label>Sesion</label>
-                    <span class="d-md-down-none">{{Auth::user()->usuario}} </span>
+                   <!-- <span class="d-md-down-none">{{Auth::user()->usuario}} </span>-->
                 </a>
                 <div class="dropdown-menu dropdown-menu-right">
                     <div class="dropdown-header text-center">

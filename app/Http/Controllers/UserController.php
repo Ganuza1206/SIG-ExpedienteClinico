@@ -64,30 +64,19 @@ class UserController extends Controller
          
         try{
             DB::beginTransaction();
-            $id_persona = Persona::max('id');
-            $id=$id_persona+1;
-            $persona = new Persona();
-            $persona->id=$id;
-            $persona->nombre_persona = $request->nombre_persona;
-            $persona->apellido_persona = $request->apellido_persona;
-            $persona->save();
- 
-            $user = new User();
+            $id_user = User::max('id');
+            $id=$id_user+1;
+            $persona = new User();
             $user->usuario = $request->usuario;
             $user->password =bcrypt( $request->password);
             $user->condicion = '1';
             $user->idrol = $request->idrol;          
- 
             $user->id = $persona->id;
- 
             $user->save();
- 
             DB::commit();
- 
         } catch (Exception $e){
             DB::rollBack();
         }
-
     }
 
 
@@ -133,6 +122,13 @@ class UserController extends Controller
         $user->save();
     }
  
+    /**
+    *Nombre de función: activar.
+    *Breve descripción: activa un usuario desactivado
+    *@author: Gloria Ganuza
+    *fecha de creación: 16/06/2020
+    *@return: no regresa nada
+    */
     public function activar(Request $request)
     {
        if (!$request->ajax()) return redirect('/');

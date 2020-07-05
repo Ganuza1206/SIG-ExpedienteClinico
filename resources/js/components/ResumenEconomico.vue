@@ -67,13 +67,13 @@
                                     </template>
                                 </tr>
                                 <tr>
-                                <td>SUBTOTALES</td>
-                                <td>{{ingresos}}</td>
-                                <td>{{egresos}}</td>
+                                    <td>SUBTOTALES</td>
+                                    <td>{{ingresos}}</td>
+                                    <td>{{egresos}}</td>
                                 </tr>
                                 <tr>
-                                <td>TOTAL</td>
-                                <td colspan="2">{{total}}</td>
+                                    <td>TOTAL</td>
+                                    <td colspan="2">{{total}}</td>
                                 </tr>
                             </tbody>
                         </table>

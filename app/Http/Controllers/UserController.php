@@ -109,8 +109,6 @@ class UserController extends Controller
             $user = User::findOrFail($request->id);
  
             $persona = Persona::findOrFail($user->id);
-            $persona->nombre_persona = $request->nombre_persona;
-            $persona->apellido_persona = $request->apellido_persona;
             $persona->save();
  
             $user->usuario = $request->usuario;

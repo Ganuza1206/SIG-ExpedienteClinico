@@ -8,7 +8,9 @@
                         </template>
 
                         <template v-if="menu==7">
-                            <historialefectivo></historialefectivo>
+                            
+                            <!--<historialefectivo></historialefectivo> -->
+                       <temporadasconsultas></temporadasconsultas>
                         </template>
                         
                         <template v-if="menu==8">
@@ -24,7 +26,8 @@
                         </template>
 
                         <template v-if="menu==12">
-                        <controlsectorialfeligreses></controlsectorialfeligreses>
+                       <!-- <controlsectorialfeligreses></controlsectorialfeligreses>-->
+                       <temporadasconsultas></temporadasconsultas>
                         </template>
                             
                         <template v-if="menu==13">
@@ -97,7 +100,8 @@
                         </template>
 
                         <template v-if="menu==12">
-                        <controlsectorialfeligreses></controlsectorialfeligreses>
+                         <!-- <controlsectorialfeligreses></controlsectorialfeligreses>-->
+                       <temporadasconsultas></temporadasconsultas>
                         </template>
                             
                         <template v-if="menu==13">

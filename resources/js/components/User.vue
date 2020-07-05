@@ -263,13 +263,12 @@
              }
              let me=this;
               axios.put('/user/registrar',{
-                  'nombre_persona': this.nombre_persona.toUpperCase(),
-                  'apellido_persona':this.apellido_persona.toUpperCase(),
                   'usuario':this.usuario.toUpperCase(),
                   'password':this.password.toUpperCase(),
                   'idrol':this.idrol
               }) .then(function (response) {
                     me.cerrarModal();
+                    me.msjExito();
                     me.listarPersona(1,'','nombre_persona');
                 })
                 .catch(function (error) {
@@ -278,7 +277,15 @@
                 });
              
             },
-
+ //MENSAJE DE ÉXITO
+            msjExito(){
+                swal({
+                    type: 'success',
+                    title: 'Datos guardados con éxito',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+            },
 
             actualizarEfectivos(){
                 if(this.validarPersona()){
@@ -287,14 +294,13 @@
                
                let me=this;
               axios.put('/user/actualizar',{
-                  'nombre_persona': this.nombre_persona.toUpperCase(),
-                  'apellido_persona':this.apellido_persona.toUpperCase(),
                   'usuario':this.usuario.toUpperCase(),
                   'password':this.password.toUpperCase(),
                   'idrol':this.idrol,
                   'id':this.persona_id,
               }) .then(function (response) {
                     me.cerrarModal();
+                    me.msjExito();
                     me.listarPersona(1,'','nombre_persona');
                 })
                 .catch(function (error) {
@@ -309,17 +315,21 @@
                 var max_length=20;
                 var min_length=3;
                 var min_length_contra=9;
+                var max_length_contra=12;
                 var lengthMax = this.usuario.length;
                 var lengthMin = this.usuario.length;
-                var lengthMin_contra = this.password.length
-                                
-
+                //var lengthMin_contra = this.password.length
+                //var lengthMax_contra = this.password.length
+                
                 if(!this.usuario)this.errorMostrarMsjPersona.push("El campo usuario no debe estar vacio");
+                if(!this.password)this.errorMostrarMsjPersona.push("El campo password no puede estar vacío");
                 if(lengthMax > max_length)this.errorMostrarMsjPersona.push("El nombre de usuario no debe ser mayor a 20 letras");
                 if(lengthMin < min_length)this.errorMostrarMsjPersona.push("El nombre de usuario no debe ser menor a 3 letras");
-                if(!this.password)this.errorMostrarMsjPersona.push("El campo password no puede estar vacío");
-                if(lengthMin_contra < min_length_contra)this.errorMostrarMsjPersona.push("El password no debe ser menor a 9 digitos");
+                if(RE.test(this.usuario))this.errorMostrarMsjPersona.push("No pueden ir números u otros caracteres especiales en el nombre de usuario");
+                //if(lengthMin_contra < min_length_contra)this.errorMostrarMsjPersona.push("El password no debe ser menor a 8 digitos");
+                //if(lengthMax_contra > max_length_contra)this.errorMostrarMsjPersona.push("El password no debe ser mayor a 12 digitos");
                 if(this.idrol==0)this.errorMostrarMsjPersona.push("Debe seleccionar un rol para el usuario");
+                
                 if(this.errorMostrarMsjPersona.length)this.errorPersona=1;
                 return this.errorPersona;
             },
@@ -348,8 +358,6 @@
                                 this.modal=1;
                                 this.tituloModal='Registrar Usuario'
                                 this.tipoAccion=1;
-                                this.nombre_persona='';
-                                this.apellido_persona='';
                                 this.usuario='';
                                 this.password='';
                                 this.idrol=0;

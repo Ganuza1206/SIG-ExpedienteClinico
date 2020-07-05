@@ -54,6 +54,7 @@ Vue.component('controlsectorialfeligreses', require('./components/ControlSectori
 Vue.component('controlsectorialinventarios', require('./components/ControlSectorialInventarios.vue').default);
 Vue.component('escritorio', require('./components/Escritorio.vue').default);
 Vue.component('categoriainventario', require('./components/MantenimientoCategoriaInventario.vue').default);
+Vue.component('temporadasconsultas', require('./components/TemporadasConsultas.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
